@@ -53,5 +53,3 @@ def delete_data(data_id):
     return {"message":f"Data with id {data_id} not present"}
 
 
-if __name__ == '__main__':
-    app.run(debug=True)
